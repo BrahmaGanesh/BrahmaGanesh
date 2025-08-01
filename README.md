@@ -1,48 +1,38 @@
 # 👋 Hello, I'm Brahma Ganesh Katrapalli
 
 🎓 Electronics & Communication Engineering (ECE) Graduate | ASIC Verification Enthusiast  
-💻 Passionate about building reliable digital systems & real-world applications using modern hardware and software technologies.  
-🚀 Actively seeking **entry-level roles or internships** in **ASIC Verification**, **VLSI**, or **Embedded Software** domains.
+💻 Passionate about designing and verifying reliable digital systems using SystemVerilog, UVM, and Python.  
+🚀 Open to **entry-level opportunities** in **ASIC Verification**, **VLSI Design**, and **Digital Design Verification** domains.
 
 ---
 
 ## 🔍 About Me
 
-- 👨‍🎓 Recently graduated in **ECE**, with a growing passion for **ASIC Design & Verification**.
-- 💡 Hands-on experience with **SystemVerilog**, **UVM**, and simulation tools like **ModelSim**, **Vivado**, and **QuestaSim**.
-- 🌐 Also skilled in **web development** with full-stack projects using **React, Flask, Django**, and more.
-- 💼 Looking for **fresh graduate roles**, **internships**, or **remote opportunities** in **VLSI/Verification**.
+- Focused on **ASIC Design & Verification** using **SystemVerilog**, **UVM**, and **functional coverage** techniques.
+- Comfortable with tools like **QuestaSim**, **Vivado**, and scripting in **Python** for automation.
+- Built real-world digital design verification projects and constantly exploring protocol-level verification flows.
+- Strong foundation in **digital logic**, **protocols**, and **testbench architecture**.
 
 ---
 
 ## 🛠️ Technical Skills
 
-**Digital & Verification:**  
-`SystemVerilog` `UVM` `Verilog` `VHDL` `Assertions` `Covergroups`
+**ASIC & Verification:**  
+`SystemVerilog` `UVM` `Assertions` `Covergroups` `Verilog` `VHDL`
 
-**Tools & Platforms:**  
-`ModelSim` `QuestaSim` `Vivado` `Git` `GitHub` `VS Code`
+**Tools & Automation:**  
+`QuestaSim` `ModelSim` `Vivado` `Git` `Python` `Makefile`
 
-**Scripting & Software:**  
-`Python` `C` `Shell` `Makefile`
-
-**Full Stack (Secondary Skill):**  
-Frontend: `HTML` `CSS` `JavaScript` `React.js`  
-Backend: `Python` `Flask` `Django` `Node.js`  
-Database: `MySQL` `MongoDB`
+**Scripting & Support:**  
+`Python` `Shell` `Log Parsing` `Automation Scripts`
 
 ---
 
-## 📂 Featured Projects
+## 📂 Highlighted Project
 
-### ✅ [SystemVerilog Counter Verification](https://github.com/BrahmaGanesh/counter-verification) *(ASIC Project)*  
-A parameterized up-counter verified using SystemVerilog Assertions and basic UVM environment.
-
-### 🧪 [UVM Environment Practice Projects (Coming Soon)]()  
-End-to-end testbench setup including **driver**, **monitor**, **scoreboard**, and **agent** modules.
-
-### 🧮 [Calculator Web App](https://github.com/BrahmaGanesh/calcut) *(Web Project)*  
-A basic calculator built with HTML, CSS, and JavaScript.
+### ✅ [SystemVerilog Counter Verification](https://github.com/BrahmaGanesh/counter-verification)  
+Designed and verified a parameterized up-counter using **SystemVerilog assertions**, functional coverage, and **UVM-style testbench structure**.  
+Includes self-checking testbenches, constrained random scenarios, and waveform analysis.
 
 ---
 
@@ -54,16 +44,11 @@ A basic calculator built with HTML, CSS, and JavaScript.
 
 ---
 
-## ⚡ My Goals
+## ⚡ Current Focus
 
-- 🔍 Land my first **ASIC Verification** or **VLSI Design** role  
-- 📚 Master **UVM**, **Assertions**, and **FPGA Design**  
-- 🤝 Contribute to open-source verification IPs and real-world digital designs
+- Learning advanced **UVM**, **protocol-level VIPs**, and **SoC-level testbenches**
+- Exploring **Python automation** for verification flow optimization
+- Preparing to complete **ChipEdge ASIC Verification Certification**
 
 ---
 
-## 🧭 Resume & Certifications
-
-- 🧾 **[Download Resume (ATS-Optimized)](link-to-resume)** <!-- Replace with actual link -->
-- 📜 **Coursework:** Digital Electronics, VLSI Design, HDL, Computer Architecture  
-- 🏅 **Certifications:** *Currently pursuing ASIC Verification certification from ChipEdge*
