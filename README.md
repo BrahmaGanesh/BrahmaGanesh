@@ -1,47 +1,47 @@
 # 👋 Hello, I'm Brahma Ganesh Katrapalli
 
-🎓 Electronics & Communication Engineering (ECE) Graduate | Self-Taught Full Stack Developer  
-💻 Passionate about building real-world web applications using modern technologies.  
-🚀 Actively seeking full-time opportunities or internships in software development.
+🎓 Electronics & Communication Engineering (ECE) Graduate | ASIC Verification Enthusiast  
+💻 Passionate about building reliable digital systems & real-world applications using modern hardware and software technologies.  
+🚀 Actively seeking **entry-level roles or internships** in **ASIC Verification**, **VLSI**, or **Embedded Software** domains.
 
 ---
 
 ## 🔍 About Me
 
-- 👨‍🎓 Recently graduated in **ECE**, but my true passion lies in **coding and software development**.
-- 🌐 Self-taught in web development – built multiple full-stack projects using **React, Flask, Django, Node.js** and more.
-- 🧠 I love solving problems and turning ideas into working applications.
-- 💼 Currently looking for **fresher roles, internships**, or **remote developer opportunities**.
+- 👨‍🎓 Recently graduated in **ECE**, with a growing passion for **ASIC Design & Verification**.
+- 💡 Hands-on experience with **SystemVerilog**, **UVM**, and simulation tools like **ModelSim**, **Vivado**, and **QuestaSim**.
+- 🌐 Also skilled in **web development** with full-stack projects using **React, Flask, Django**, and more.
+- 💼 Looking for **fresh graduate roles**, **internships**, or **remote opportunities** in **VLSI/Verification**.
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Technical Skills
 
-**Frontend:**  
-`HTML` `CSS` `JavaScript` `React.js`
+**Digital & Verification:**  
+`SystemVerilog` `UVM` `Verilog` `VHDL` `Assertions` `Covergroups`
 
-**Backend & Frameworks:**  
-`Python` `Flask` `Django` `Node.js` `Express.js`
+**Tools & Platforms:**  
+`ModelSim` `QuestaSim` `Vivado` `Git` `GitHub` `VS Code`
 
-**Database:**  
-`MySQL` `MongoDB`
+**Scripting & Software:**  
+`Python` `C` `Shell` `Makefile`
 
-**Tools:**  
-`Git` `GitHub` `VS Code` `Postman`
+**Full Stack (Secondary Skill):**  
+Frontend: `HTML` `CSS` `JavaScript` `React.js`  
+Backend: `Python` `Flask` `Django` `Node.js`  
+Database: `MySQL` `MongoDB`
 
 ---
 
-## 📂 Projects
+## 📂 Featured Projects
 
-### ✅ [Student Result Manager](https://github.com/BrahmaGanesh/Student-Result-Manager)  
-A full-stack app to manage student marks and generate results with a clean UI.  
-**Stack:** React, Flask, MySQL
+### ✅ [SystemVerilog Counter Verification](https://github.com/BrahmaGanesh/counter-verification) *(ASIC Project)*  
+A parameterized up-counter verified using SystemVerilog Assertions and basic UVM environment.
 
-### 🛒 [Shop Billing System](https://github.com/BrahmaGanesh/Shop-Billing-System)  
-A simple billing app to calculate and track shop purchases.  
-**Stack:** Django, Python
+### 🧪 [UVM Environment Practice Projects (Coming Soon)]()  
+End-to-end testbench setup including **driver**, **monitor**, **scoreboard**, and **agent** modules.
 
-### 🧮 [Calculator Web App](https://github.com/BrahmaGanesh/calcut)  
+### 🧮 [Calculator Web App](https://github.com/BrahmaGanesh/calcut) *(Web Project)*  
 A basic calculator built with HTML, CSS, and JavaScript.
 
 ---
@@ -54,8 +54,16 @@ A basic calculator built with HTML, CSS, and JavaScript.
 
 ---
 
-## ⚡ Goals
+## ⚡ My Goals
 
-- 🔎 Land my first software development job or internship
-- 📚 Learn TypeScript and Next.js
-- 🤝 Collaborate on open-source and real-world projects
+- 🔍 Land my first **ASIC Verification** or **VLSI Design** role  
+- 📚 Master **UVM**, **Assertions**, and **FPGA Design**  
+- 🤝 Contribute to open-source verification IPs and real-world digital designs
+
+---
+
+## 🧭 Resume & Certifications
+
+- 🧾 **[Download Resume (ATS-Optimized)](link-to-resume)** <!-- Replace with actual link -->
+- 📜 **Coursework:** Digital Electronics, VLSI Design, HDL, Computer Architecture  
+- 🏅 **Certifications:** *Currently pursuing ASIC Verification certification from ChipEdge*
