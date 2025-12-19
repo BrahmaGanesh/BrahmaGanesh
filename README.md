@@ -1,5 +1,5 @@
-# Brahma Ganesh Katrapalli
-**Entry-Level ASIC Design Verification Engineer**  
+# Brahma Ganesh Katrapalli 👋
+** 🚀 Entry-Level ASIC Design Verification Engineer**  
 [LinkedIn](https://www.linkedin.com/in/katrapallibrahmaganesh) | [GitHub](https://github.com/BrahmaGanesh) | [Email](mailto:brahmaganeshkatrapalli@gmail.com)
 
 ---
