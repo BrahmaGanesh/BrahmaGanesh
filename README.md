@@ -1,82 +1,84 @@
-# Brahma Ganesh Katrapalli 👋
-### 🚀 Entry-Level ASIC Design Verification Engineer  
-[LinkedIn](https://www.linkedin.com/in/katrapallibrahmaganesh) | [GitHub](https://github.com/BrahmaGanesh) | [Email](mailto:brahmaganeshkatrapalli@gmail.com)
+# Brahma Ganesh Katrapalli 👋  
+### ASIC Design Verification Engineer (Fresher)
+
+[🔗 LinkedIn](https://www.linkedin.com/in/katrapallibrahmaganesh) | [💻 GitHub](https://github.com/BrahmaGanesh) | [📧 Email](mailto:brahmaganeshkatrapalli@gmail.com)
 
 ---
 
-## Professional Summary
+## About Me
 
-Entry-Level ASIC Design Verification Engineer with hands-on experience building UVM-based testbenches, writing SystemVerilog Assertions, and closing functional coverage for industry-standard protocols. Experienced in debugging simulation failures, analyzing waveforms, and tracing issues to root RTL or testbench causes. Focused on building reliable, self-checking verification environments rather than just passing tests.
+ASIC Design Verification Engineer with hands-on experience in SystemVerilog and UVM.  
+Developed end-to-end verification environments for AXI4, APB, and UART protocols using constrained-random stimulus, SVA, functional coverage, and scoreboard-based checking.
 
----
-
-## 🛠️ Verification Mindset
-
-I approach verification with a structured, reliability-first methodology:
-*   **Verification Planning:** Start with the specification to derive features, corner cases, and assertions before writing code.
-*   **Stimulus Strategy:** Build constrained-random sequences to hit edge cases that directed tests miss.
-*   **Measuring Progress:** Use functional coverage and code coverage to objectively measure verification completeness.
-*   **Debugging:** Systematic root-cause analysis using waveforms, logs, and transaction-level traces.
+Strong understanding of digital design fundamentals, protocol timing, and systematic debug using waveform analysis. Comfortable working in Linux-based simulation environments with industry tools.
 
 ---
 
-## 💻 Technical Skills
+## Core Technical Skills
 
 | Category | Skills |
-| :--- | :--- |
-| **Verification** | UVM, SystemVerilog, SVA (Assertions), Functional Coverage, Constrained Random Verification (CRV) |
-| **Hands-on Protocols** | **APB**, **SPI** (End-to-end verification with UVM) |
-| **Working Knowledge** | UART, I2C, Digital Logic, FSM Design |
-| **Tools & OS** | QuestaSim, Vivado, Python (Automation), Linux, Git |
-
----
-## 🧪 Verification Deliverables I Can Own
-
-I take ownership of the following verification responsibilities:
-
-* **Verification Planning:** Deriving a complete verification plan directly from protocol specifications.
-* **UVM Testbench Development:** Building reusable UVM agents (driver, monitor, sequencer) and environment components.
-* **Checking & Modeling:** Implementing self-checking scoreboards and reference models.
-* **Assertions:** Writing concurrent SystemVerilog Assertions to enforce protocol timing and data integrity.
-* **Functional Coverage:** Defining covergroups and driving coverage closure based on verification goals.
-* **Debugging:** Isolating and resolving failures across RTL, testbench, and stimulus layers using waveforms and logs.
-
-## 📂 Key Verification Projects
-
-### 1️⃣ [APB Protocol Verification (UVM)](https://github.com/BrahmaGanesh/APB-Protocol-Design-UVM-Verification.git)
-**Role:** Designed the complete verification environment for an AMBA APB Slave DUT.
-
-*   **Verification Plan:**
-    *   Targeted Setup/Access phase timing adherence.
-    *   Verified randomized wait-states (PREADY low) and error responses (PSLVERR).
-    *   Validated back-to-back transfers without idle cycles.
-*   **Testbench Architecture:**
-    *   **Scoreboard:** Implemented an associative array-based reference model to predict expected read data and compare against DUT output.
-    *   **Coverage:** Defined covergroups for Address ranges, Read/Write distribution, and PREADY delays.
-*   **Real Bugs Caught & Resolved:**
-    *   **Timing Violation:** Detected a protocol violation where `PENABLE` was asserted before `PSEL` setup time requirements were met using concurrent SVA bound to the interface.
-    *   **Data Integrity:** Fixed a scoreboard mismatch caused by incorrect data sampling during extended wait-states (PREADY=0).
-
-### 2️⃣ [SPI Master/Slave Verification (SystemVerilog/UVM)](https://github.com/BrahmaGanesh/spi-protocol-verification-uvm.git)
-**Role:** Verified a configurable SPI controller supporting all 4 CPOL/CPHA modes.
-
-*   **Focus Areas:**
-    *   Verified correct data sampling edges for all CPOL/CPHA mode combinations.
-    *   Validated `CS_N` (Chip Select) assertion timing and setup/hold requirements.
-    *   Tested asynchronous reset behavior during active transfers.
-*   **Challenges Solved:**
-    *   **Mode Mismatch:** Debugged and resolved a data shift issue in Mode 3 (CPOL=1, CPHA=1) where the MSB was being driven one cycle late.
-    *   **Corner Case:** Verified system behavior when back-to-back transfers occurred with minimal inter-frame delay.
+|----------|--------|
+| **Verification** | SystemVerilog, UVM 1.2, SVA, Functional Coverage, Constrained Random Verification |
+| **Protocols (Hands-on)** | AXI4, APB, UART, SPI, I2C |
+| **Tools** | Synopsys VCS, Verdi, GTKWave |
+| **Environment** | Linux, Git |
+| **Programming** | Python, Shell Scripting |
 
 ---
 
-## 🎓 Education & Training
+## Featured Projects
 
-**ASIC Design Verification Training** | ChipEdge Technologies  
-*Completed intensive hands-on ASIC Verification training with multiple UVM projects.*  
-*   Focus: SystemVerilog, UVM, Protocol Verification, and Linux environment.
+### 🔹 [AXI4 Protocol Verification using UVM](https://github.com/BrahmaGanesh/axi4-full-rtl-uvm-verification.git)  
+- Verified custom AXI4 Slave RTL (32-bit data/address, 4KB memory) supporting FIXED, INCR, and WRAP burst types  
+- Implemented structured UVM environment: agent, sequencer, driver, monitor, scoreboard, and coverage components  
+- Developed reference memory model for write–read data integrity validation  
+- Enforced SVA for VALID/READY handshake stability, WLAST/RLAST alignment, and address alignment  
+- Executed constrained-random regression including error injection and reset-during-transfer scenarios  
+- Achieved full functional coverage for burst types, response conditions, and address scenarios  
+
+---
+
+### 🔹 [APB Slave RTL Design and UVM Verification](https://github.com/BrahmaGanesh/APB-Protocol-Design-UVM-Verification.git)
+- Designed 256×32 APB Slave RTL with read/write support, wait states, and PSLVERR generation  
+- Verified SETUP and ACCESS phase timing, handshake behavior, and error conditions  
+- Implemented constrained-random and directed sequences for corner-case coverage  
+- Applied assertions and functional coverage for protocol compliance  
+- Achieved 100% functional coverage across defined scenarios  
+
+---
+
+### 🔹 [UART UVM Verification](https://github.com/BrahmaGanesh/uart-uvm-verification.git)
+- Built full-duplex UART (TX/RX loopback) verification environment using UVM 1.2  
+- Verified parity enable/disable, parity error injection, frame error detection, and multi-baud-rate operation  
+- Enhanced scoreboard-based checking with cross functional coverage  
+- Applied protocol-level SVA assertions across transfer scenarios  
+- Completed regression achieving full defined coverage  
+
+---
+
+## Education
 
 **B.Tech in Electronics & Communication Engineering**  
-*Graduated 2025*
+Bharath University, Chennai  
+CGPA: 8.24 / 10  
+2021 – 2025  
 
 ---
+
+## Training
+
+**ASIC Design Verification Training – ChipEdge Technologies (2025)**  
+- Industry-focused training in Verilog, SystemVerilog, UVM, and assertion-based verification  
+- Developed reusable UVM components and executed regression flows using Synopsys VCS and Verdi in Linux  
+
+---
+
+## Additional Technical Strengths
+
+- Strong understanding of FSM design and synchronous digital logic  
+- Clear understanding of UVM phase mechanism and testbench architecture  
+- Comfortable debugging protocol violations using waveform and log analysis  
+
+---
+
+📌 Actively seeking ASIC Design Verification opportunities as a Fresher.
